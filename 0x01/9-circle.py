@@ -1,12 +1,11 @@
 #!/usr/bin/python
 
-def circle(py, r):
-    return py*r
+def circle(pi, r):
+    return pi*r
 
 
 if __name__=="__main__":
-    py=22/7
+    pi=22/7
     r=int(input("Enter the raidus of the circle:"))
-    result=circle(py,r)
-    print(result)
-    
+    result=circle(pi,r)
+    print(f"your answer is {result}")

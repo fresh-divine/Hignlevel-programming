@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-score =int(input("Enter the students score:"))
+score =int(input("Enter your score:"))
 
 if score >=90 and score <=100:
     print("Your grade is A")

@@ -3,6 +3,7 @@
 
 num = int(input("Enter any number of your choice: "))
 
+
 # left shift
 print("left shift: {}".format(num << 1))
 
