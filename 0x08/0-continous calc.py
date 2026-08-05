@@ -1,4 +1,5 @@
 #!/usr/bin/python
+
 """a module that has all the functions that performs arithemetic operations"""
 def add(a,b):
     return a+b
@@ -41,6 +42,3 @@ if __name__=="__main__":
         print(exponential(num1,num2))
     else:
         print("invalid input")
-
-    
-    
