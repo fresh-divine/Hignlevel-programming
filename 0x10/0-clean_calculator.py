@@ -1,26 +1,25 @@
 #!/usr/bin/python
+'a modified and clean version of a calculator'
+def add(choice_a,choice_b):
+    return choice_a+choice_b
 
-"""a module that has all the functions that performs arithemetic operations"""
-def add(a,b):
-    return a+b
+def sub(choice_a,choice_b):
+    return choice_a-choice_b
 
-def sub(a,b):
-    return a-b
+def multiply(choice_a,choice_b):
+    return choice_a*choice_b
 
-def multiply(a,b):
-    return a*b
+def divide(choice_a,choice_b):
+    return choice_a/choice_b
 
-def divide(a,b):
-    return a/b
+def mode(choice_a,choice_b):
+    return choice_a%choice_b
 
-def mode(a,b):
-    return a%b
+def floor_division(choice_a,choice_b):
+    return choice_a//choice_b
 
-def floor_division(a,b):
-    return a//b
-
-def exponential(a,b):
-    return a**b
+def exponential(choice_a,choice_b):
+    return choice_a**choice_b
 
 if __name__=="__main__":
     opt=int(input("enter :1-add, 2-sub, 3-multiply, 4-divide, 5-mode, 6-floor division, 7-exponential, :"))
@@ -42,5 +41,3 @@ if __name__=="__main__":
         print(exponential(num1,num2))
     else:
         print("invalid input")
-
-Note: remember the app named "discord"

@@ -23,23 +23,12 @@ def floor_division(a,b):
 def exponential(a,b):
     return a**b
 
-<<<<<<< HEAD
 if __name__=="__main__": 
  opt=int(input("enter :1-add, 2-sub, 3-multiply, 4-divide, 5-mode, 6-floor division, 7-exponential :"))
 num1=int(input("Enter the first number:"))
 num2=int(input("Enter the second number:"))
 
 if opt==1:
-=======
-
-
-if __name__=="__main__":
-    opt=int(input("enter :1-add, 2-sub, 3-multiply, 4-divide, 5-mode, 6-floor division, 7-exponential :"))
-    num1=int(input("Enter the first number:"))
-    num2=int(input("Enter the second number:"))
-
-    if opt==1:
->>>>>>> 07d56e4f84e709de3e7c4274712b29a536f50577
         print(add(num1,num2))
 elif opt==2:
      print(sub(num1,num2))
@@ -55,16 +44,11 @@ elif opt==7:
         print(exponential(num1,num2))
 running = True
 while running:
-<<<<<<< HEAD
     choice = input("Enter 'quit' to exit or 'continue' to go back to menu.: ")
-=======
-    choice = input("Enter 'quit' to exit.: ")
->>>>>>> 07d56e4f84e709de3e7c4274712b29a536f50577
 
     if choice == "quit":
         running = False
         print("Exiting.....")
-<<<<<<< HEAD
     elif choice == "continue":
         running = False
         print("going back to menu")
@@ -89,7 +73,3 @@ running = True
 while running:
     choice = input("Enter 'quit' to exit or 'continue' to go back to menu.: ")
 
-=======
-    else:
-        print("You entered:", choice)
->>>>>>> 07d56e4f84e709de3e7c4274712b29a536f50577
