@@ -1,5 +1,5 @@
 #!/usr/bin/python
-'a modified and clean version of a calculator'
+'a modified version of a calculator'
 def add(a, b):
     return a + b
 
