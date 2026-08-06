@@ -26,6 +26,7 @@ if __name__=="__main__":
     print("===========================================")
     print("           welcome to calculator           ")
     print("===========================================")
+    
     opt=int(input("enter :1-add, 2-sub, 3-multiply, 4-divide, 5-mode, 6-floor division, 7-exponential, :"))
     num1=int(input("Enter the first number: "))
     num2=int(input("Enter the second number: "))
