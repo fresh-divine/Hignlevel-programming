@@ -1,8 +1,6 @@
 #!/usr/bin/sh
 """ a module that performs arithmetic operations """
-print("==========================")
-print(       "CALCULATOR"        )
-print("==========================")
+
 num1 =float(input("Enter your first number:"))
 num2 =float(input("Enter your second number:"))
 print("Arithmetic operations")
