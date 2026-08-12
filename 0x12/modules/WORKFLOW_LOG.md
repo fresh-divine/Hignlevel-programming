@@ -28,3 +28,14 @@ main) a modular calculator
 * | 2ed36b5 project
 |/
 * fb58f72 moudle 0 in python programming
+Author: fresh-divine <fresh.divine07@gmail.com>
+Date:   Mon Aug 10 14:54:06 2026 +0100
+
+    a new project file
+
+diff --git a/0x12/modules/calculator.py b/0x12/modules/calculator.py
+new file mode 100644
+index 0000000..4bdfdc2
+--- /dev/null
++++ b/0x12/modules/calculator.py
+""" this shows the author, date, and commit of the file and how the file . """

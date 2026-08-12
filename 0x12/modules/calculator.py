@@ -24,7 +24,7 @@ elif opt==2:
 elif opt==3:
         """multiplys the two numbers"""
         print(multiply(num1,num2))
-else:
-     print("thank you for using my calculator")
+else: 
+     print("thank you for using my  best calculator")
 
-print("thanks for using my calculator")
+print("thanks for using my calculator to solve")
