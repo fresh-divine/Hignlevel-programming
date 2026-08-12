@@ -49,8 +49,9 @@ while running:
     if choice == "quit":
         running = False
         print("Exiting.....")
+        break
     elif choice == "continue":
-        running = False
+        running = True
         print("going back to menu")
 opt=int(input("enter :1-add, 2-sub, 3-multiply, 4-divide, 5-mode, 6-floor division, 7-exponential :"))
 num1=int(input("Enter the first number:"))
@@ -70,6 +71,3 @@ elif opt==6:
 elif opt==7:
         print(exponential(num1,num2))
 running = True
-while running:
-    choice = input("Enter 'quit' to exit or 'continue' to go back to menu.: ")
-
